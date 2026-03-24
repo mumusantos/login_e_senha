@@ -1,15 +1,49 @@
 * {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
 }
-/* estilização do corpo da pagina*/
-body  {
+/* Estilização do corpo da página*/
+body {
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
- /* container principal
+
+/* Container principal (caixa de formulário)*/
+.container {
+background-color: white;
+padding: 2rem;
+border-radius: 8px;
+
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/*titulo*/
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+ /*espaço entre os campos do formulario*/
+ .input-group{
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: o.3rem;
+    color: #3333;
+ }
+
+ /* compos de digitção*/
+ input{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+ }
